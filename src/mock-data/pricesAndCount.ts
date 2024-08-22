@@ -523,5 +523,3 @@ propertyArray.forEach(([name, data]) => {
     result.push(name, data);
   }
 });
-
-console.log(result);

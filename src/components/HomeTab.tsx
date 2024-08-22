@@ -1,3 +1,4 @@
+import { v4 as uuidv4 } from "uuid";
 import { cities } from "../mock-data/cities";
 import { result } from "../mock-data/pricesAndCount";
 import { formatNumber } from "../utils";
@@ -89,7 +90,10 @@ const HomeTab = () => {
 
           if (typeof name === "string" && typeof details === "object") {
             return (
-              <div className="p-3 bg-white border border-solid border-[#E7E7E7] rounded-lg ">
+              <div
+                key={uuidv4()}
+                className="p-3 bg-white border border-solid border-[#E7E7E7] rounded-lg "
+              >
                 <h4>{name}</h4>
                 <div>
                   {details.count} Properties | {formatNumber(details.med)} price
