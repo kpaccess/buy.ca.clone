@@ -103,6 +103,9 @@ const HomeTab = () => {
           }
         })}
       </div>
+      <div>
+        <h1>Properties</h1>
+      </div>
     </section>
   );
 };

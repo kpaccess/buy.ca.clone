@@ -28,22 +28,3 @@ const Banner = () => {
   );
 };
 export default Banner;
-
-/*<div className="px-6 py-6 ">
-        <h1 className=" text-5xl leading-4">Discover Your Dream Home</h1>
-        <h6 className=" font-bold leading-[5rem]">
-          Find the perfect buy with Buy.ca!
-        </h6>
-
-        <ToggleTab />
-      </div>
-      <div className="absolute right-0">
-        <img
-          src="./home-banner-hero.png"
-          style={{ objectFit: "contain" }}
-          alt="hero"
-          width={1920}
-          height={530}
-          className="!opacity-100 h-[530px] !w-full"
-        />
-      </div>*/
