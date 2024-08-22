@@ -1,14 +1,11 @@
 import { Link } from "react-router-dom";
 import { FaBell, FaUserCircle } from "react-icons/fa";
 const Header = () => {
-  // max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sticky
   return (
     <nav className="border-b border-solid border-gray-150 bg-white sticky top-0 header-nav !z-[1202] w-full ">
       <div className="container mx-auto px-5 max-md:px-3">
         <div className="flex justify-between h-16 items-center">
-          {/* Left side - Logo and Navigation Links */}
           <div className="flex items-center">
-            {/* Logo */}
             <Link to="#" className="flex-shrink-0">
               <img src="logo.svg" alt="Logo" className="h-8 w-auto" />
             </Link>
