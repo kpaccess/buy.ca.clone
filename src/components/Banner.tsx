@@ -2,7 +2,7 @@ import ToggleTab from "./ToggleTab";
 
 const Banner = () => {
   return (
-    <div className=" home_main_banner md:min-h-[530px] md:max-h-[530px] !min-h-[440px] relative">
+    <div className="home_main_banner md:min-h-[530px] md:max-h-[530px] !min-h-[440px] relative">
       <div className="home_main_content container mx-auto px-5">
         <div className="max-w-[800px] w-full">
           <h1 className=" text-5xl leading-4">Discover Your Dream Home</h1>
