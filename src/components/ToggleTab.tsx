@@ -1,18 +1,15 @@
 import { useState } from "react";
 import { FaSearch } from "react-icons/fa";
+import { useTabs } from "../customHooks/useTabs";
 
 const ToggleTab = () => {
-  const [activeTab, setActiveTab] = useState("Buy");
   const [searchQuery, setSearchQuery] = useState("");
-
-  const handleTabClick = (tab: string) => {
-    setActiveTab(tab);
-    setSearchQuery("");
-  };
-
-  const getTabStyle = (tab: string) => {
-    return tab === activeTab ? "bg-white" : "bg-gray-300";
-  };
+  // custom hook
+  const { activeTab, handleTabClick, getTabStyle } = useTabs({
+    initialTab: "Buy",
+    activeStyle: "bg-white",
+    inActiveStyle: "bg-gray-300",
+  });
 
   return (
     <div className="p-4 bg-white z-10">
