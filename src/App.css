@@ -10,7 +10,7 @@
   left: 0;
   width: 3288px;
   height: 242px;
-  background: url("./hero-outlines.svg");
+  background: url("./assets/hero-outline.svg");
   background-repeat: repeat-x;
   animation: Home_scrolling 20s linear infinite;
 }
